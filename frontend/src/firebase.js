@@ -3,14 +3,15 @@ import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
-};
-
+    apiKey: "AIzaSyCskFXHXb7vudNis9crqZtgN0WpS4oTb3U",
+    authDomain: "free-desk-management.firebaseapp.com",
+    projectId: "free-desk-management",
+    storageBucket: "free-desk-management.appspot.com",
+    messagingSenderId: "1015381829719",
+    appId: "1:1015381829719:web:5b5fecb240e711a9ff5b12",
+    measurementId: "G-QFV7FYGDE2"
+  };
+  
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
